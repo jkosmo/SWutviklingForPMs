@@ -101,6 +101,11 @@
      - Under installasjonen:
        - Velg alternativet "Add Git to PATH" for å sikre at Git fungerer fra terminalen.
        - Bruk standardvalg for andre innstillinger, med mindre annet er spesifisert.
+     - Hvis du ikke har admin tilgang:
+       - Trykk Win + S, søk etter miljøvariabler, og velg "Rediger miljøvariabler for kontoen din".
+       - Under "Brukervariabler", finn variabelen Path og klikk Rediger.
+       - Klikk Ny, og lim inn: "C:\Program Files\Git\bin". Kill OK for å lagre.
+       - Restart maskinen din 
   2. **Verifiser Git-installasjon:**
      - Åpne en terminal i Visual Studio Code (trykk \`Ctrl+\`\`) og skriv:
        ```bash
